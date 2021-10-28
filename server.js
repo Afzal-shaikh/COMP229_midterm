@@ -1,5 +1,12 @@
+/*
+File name: server.js
+Author's name: Afzal shaikh
+Student ID: 301184760
+Date: October 28, 2021
+*/
+
 let app = require('./server/config/app');
-let debug = require('debug')('comp308-w2019-midterm:server');
+let debug = require('debug')('comp229-f2021-midterm:server');
 let http = require('http');
 
 /**

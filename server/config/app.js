@@ -1,4 +1,10 @@
-// moddules for node and express
+/*
+File name: app.js
+Author's name: Afzal shaikh
+Student ID: 301184760
+Date: October 28, 2021
+*/
+// modules for node and express
 let createError = require('http-errors');
 let express = require('express');
 let path = require('path');
@@ -39,7 +45,7 @@ app.use(express.static(path.join(__dirname, '../../client')));
 
 // route redirects
 app.use('/', index);
-app.use('/books', books);
+app.use('/books229', books);
 
 
 // catch 404 and forward to error handler
